@@ -1,0 +1,1 @@
+gcc -g one.c -o one.exe

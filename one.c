@@ -4,7 +4,7 @@
 int main() {
     // print cwd
     system("pwd");
-    char buffer[128]; // the file pointer fp and stores it in buffer
+    char buffer[4]; // the file pointer fp and stores it in buffer
     FILE *fp = fopen("empty.txt","r");  //means popen created a process and save the data under e file descriptor than send the address to 8fp than we accress it
     if (fp == NULL) {
         perror("popen");
